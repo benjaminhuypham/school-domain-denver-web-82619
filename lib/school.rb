@@ -10,7 +10,7 @@ class School
   end
   
   def add_student(name, grade)
-    @@roster.key << grade  
-    @@roster[grade] << name  
+    @@roster["new key"] = [] 
+    @@roster[]
   
   
