@@ -11,6 +11,6 @@ class School
   
   def add_student(name, grade)
     @@roster.key << grade  
-    @@roster.value << name  
+    @@roster[grade] << name  
   
   
